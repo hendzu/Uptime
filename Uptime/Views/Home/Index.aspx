@@ -5,6 +5,8 @@
 	<title>Uptime otsing</title>
 </head>
 <body>
-	<h2>Welcome to ASP.NET MVC <%: ViewData["Version"] %> on <%: ViewData["Runtime"] %>!</h2>
+	<%-- <h2>Welcome to ASP.NET MVC < %: ViewData["Version"] %> on < %: ViewData["Runtime"] %>!</h2>--%>
+	<h2>Uptime .NET praktika otsing</h2>
+
 </body>
 
