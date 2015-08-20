@@ -88,11 +88,13 @@
     <Compile Include="Request\SignedRequestHelper.cs" />
     <Compile Include="Request\ItemLookupSample.cs" />
     <Compile Include="Models\Results.cs" />
-    <Compile Include="Request\Currency.cs" />
+    <Compile Include="Controllers\CurrencyController.cs" />
     <Compile Include="Service References\webser\Reference.cs">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
-    <Compile Include="Controllers\CurrencyController.cs" />
+    <Compile Include="Service References\www.webservicex.net\Reference.cs">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Web.config" />
@@ -105,8 +107,6 @@
     <Content Include="Content\logo_uptime.gif" />
     <Content Include="Scripts\TableRefresh.js" />
     <Content Include="Views\Currency\Index.aspx" />
-    <Content Include="Views\Currency\Index.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
@@ -117,17 +117,23 @@
     </MonoDevelop>
   </ProjectExtensions>
   <ItemGroup>
+    <WCFMetadata Include="Service References" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\webser" />
+    <WCFMetadataStorage Include="Service References\www.webservicex.net" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Service References\webser\CurrencyConvertor.wsdl" />
     <None Include="Service References\webser\CurrencyConvertor.disco" />
     <None Include="Service References\webser\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Service References" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadataStorage Include="Service References\webser" />
+    <None Include="Service References\www.webservicex.net\ConvertTemperature.wsdl" />
+    <None Include="Service References\www.webservicex.net\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
   </ItemGroup>
 </Project>

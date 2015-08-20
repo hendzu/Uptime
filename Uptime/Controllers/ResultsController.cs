@@ -19,16 +19,6 @@ namespace Uptime.Controllers
 
 			return View ();
 		}
-		[HttpPost]
-		public ActionResult Rate (www.webservicex.net.FromCurrency to){
-			CurrencyConvertorSoapClient vahetaja = new CurrencyConvertorSoapClient();
-			double arv = vahetaja.ConversionRate(www.webservicex.net.FromCurrency.USD,to);
-
-			ViewData ["arv"] = arv;
-
-			return View();
-		
-		}
 
 	}
 	}

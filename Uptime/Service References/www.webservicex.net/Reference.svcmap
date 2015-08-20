@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e3f8b5c1-9af0-4a73-ab2c-bfca597576e0" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>false</GenerateTaskBasedAsynchronousMethod>
+    <GenerateEventBasedAsynchronousMethods>true</GenerateEventBasedAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://www.webservicex.net/ConvertTemperature.asmx" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ConvertTemperature.wsdl" MetadataType="Wsdl" ID="bd21dd9b-5153-46b7-9936-63118221f7c3" SourceId="1" SourceUrl="http://www.webservicex.net/ConvertTemperature.asmx?WSDL" />
+  </Metadata>
+</ReferenceGroup>

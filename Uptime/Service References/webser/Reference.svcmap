@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6a09d0fa-168f-4ede-88fc-e162097a2689" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2a7a2920-26fc-4960-8740-444ce3ee1ba3" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>false</GenerateTaskBasedAsynchronousMethod>
@@ -21,7 +21,7 @@
     <MetadataSource Address="http://www.webservicex.net/CurrencyConvertor.asmx" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="CurrencyConvertor.wsdl" MetadataType="Wsdl" ID="44402947-c2bd-4f34-b2d0-510c6515c756" SourceId="1" SourceUrl="http://www.webservicex.net/CurrencyConvertor.asmx?wsdl" />
-    <MetadataFile FileName="CurrencyConvertor.disco" MetadataType="Disco" ID="d022efa0-561d-45b9-ae62-e8c55b4f1c16" SourceId="1" SourceUrl="http://www.webservicex.net/CurrencyConvertor.asmx?disco" />
+    <MetadataFile FileName="CurrencyConvertor.wsdl" MetadataType="Wsdl" ID="3c0c0b2c-1e32-40b9-86da-c12f428a0ccb" SourceId="1" SourceUrl="http://www.webservicex.net/CurrencyConvertor.asmx?wsdl" />
+    <MetadataFile FileName="CurrencyConvertor.disco" MetadataType="Disco" ID="8ac2574b-ae7d-4b9f-938d-9f6b47819be3" SourceId="1" SourceUrl="http://www.webservicex.net/CurrencyConvertor.asmx?disco" />
   </Metadata>
 </ReferenceGroup>

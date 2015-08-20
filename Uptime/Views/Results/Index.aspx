@@ -39,7 +39,7 @@
 	 </option>
 	 <%} %>
 	 </select>
-	 <div class="confirm"></div>
+	 <div id="confirm" hidden></div>
 	<div id="vasted">
 	<table class="table">
 	<tr>
@@ -55,13 +55,16 @@
 	<%: vaste.nimi%>
 	</a>
 	</td>
-	<td id=<%:i%> >
+	<td id="i<%:i%>" >
 	<%:vaste.hind%> USD
 	</td>
+	<td id="a<%:i%>" hidden>
+	<%:vaste.hind%>
+	</td>
 	</tr>
-	</table>
 	<%i++;
 	}%>
+	</table>
 	<%}
 	else{
 	for(int i=0;13>i;i++){%>
@@ -71,8 +74,12 @@
 	<%: vasteid[i].nimi%>
 	</a>
 	</td>
-	<td id=<%:i %> >
+	<td id="i<%:i %>" >
 	<%:vasteid[i].hind%> USD
+	</td>
+	</td>
+	<td id="a<%:i %>" hidden>
+	<%:vasteid[i].hind%>
 	</td>
 	</tr>
 	<%}%>
